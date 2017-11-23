@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+#multiimage {
+  background: 
+   url(https://raw.githubusercontent.com/Greentwip/greentwip.github.io/master/assets/images/background.png) top center no-repeat,
+}
+
