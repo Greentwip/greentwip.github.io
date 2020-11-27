@@ -1,11 +1,11 @@
 ---
-title: "Theme Setup"
+title: Theme Setup
+permalink: "/theme-setup/"
 layout: page
-permalink: /theme-setup/
-excerpt: "Instructions on how to install and use the Jekyll theme So Simple."
-last_modified_at: 2018-02-02T14:12:02-05:00
+excerpt: Instructions on how to install and use the Jekyll theme So Simple.
+last_modified_at: 2018-02-02 19:12:02 Z
 redirect_to:
-  - https://github.com/mmistakes/so-simple-theme/blob/master/README.md
+- https://github.com/mmistakes/so-simple-theme/blob/master/README.md
 ---
 
 General notes and suggestions for customizing **So Simple Theme**.
