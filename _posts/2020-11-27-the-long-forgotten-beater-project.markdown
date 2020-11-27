@@ -29,3 +29,4 @@ I don't want to make the long story about my life or the stoppers I could have w
 
 We will jump straight into the game.
 
+![miku.png](/uploads/miku.png)
