@@ -34,7 +34,7 @@ That's our character Gyng, and the screen is supposed to be filled with many son
 
 ![miku.png](/uploads/miku.png)
 
-The four buttons give a specific beat, while bars of colors appear within the roller, you have to match the bars with the beats. There is a white progress bar on top of the screen that indicates progress.
+The four buttons give a specific beat, while bars of colors appear within the roller, you have to match the bars with the beats. There is a white progress bar on top of the screen that indicates how well did you perform.
 
 I think it's a possible good mobile game. What do you think?
 
