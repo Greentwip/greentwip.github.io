@@ -1,8 +1,10 @@
 ---
+title: Greentwip's Blog
 permalink: "/blog/"
 layout: home
 ---
 
+Under Construction...
 {% for post in site.posts %}
   <article>
     <h2>
