@@ -28,7 +28,7 @@ I don't want to make the long story about my life or the stoppers I could have w
 
 We will jump straight into the game.
 
-[gyng.PNG](/uploads/gyng.PNG)
+![gyng.PNG](/uploads/gyng.PNG)
 
 That's our character Gyng, and the screen is supposed to be filled with many songs, Levan Polkka one of them.
 
