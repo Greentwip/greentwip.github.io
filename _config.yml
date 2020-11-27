@@ -11,8 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+description: Technology and Video Games.
 baseurl: 
 url: https://greentwip.xyz
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
