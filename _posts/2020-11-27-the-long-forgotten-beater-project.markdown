@@ -30,3 +30,11 @@ I don't want to make the long story about my life or the stoppers I could have w
 We will jump straight into the game.
 
 ![miku.png](/uploads/miku.png)
+
+The four buttons give a specific beat, while bars of colors appear within the roller, you have to match the bars with the beats. There is a white progress bar on top of the screen that indicates progress.
+
+I think it's a possible good mobile game. What do you think?
+
+You can find the source code at [Beater](https://github.com/greentwip/beater)
+
+Unfortunately there are no executables to test for players! (yet)
