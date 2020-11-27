@@ -1,6 +1,6 @@
 ---
+permalink: "/blog/"
 layout: home
-permalink: /blog/
 ---
 
 {% for post in site.posts %}

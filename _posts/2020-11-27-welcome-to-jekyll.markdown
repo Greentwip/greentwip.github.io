@@ -2,6 +2,7 @@
 title: Welcome to Jekyll!
 date: 2020-11-27 00:27:37 Z
 categories:
+- blog
 - jekyll
 - update
 layout: post
