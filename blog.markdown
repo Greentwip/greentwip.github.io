@@ -3,11 +3,6 @@ title: Sample Blog Folder Page
 date: 2020-11-27 01:50:00 Z
 ---
 
----
-layout: home
-permalink: /blog/
----
-
 {% for post in site.posts %}
   <article>
     <h2>
