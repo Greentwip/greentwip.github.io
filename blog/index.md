@@ -4,7 +4,7 @@ permalink: "/blog/"
 layout: home
 ---
 
-Under Construction...
+Under Construction... 
 {% for post in site.posts %}
   <article>
     <h2>
