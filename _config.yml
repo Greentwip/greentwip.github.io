@@ -33,6 +33,7 @@ description: Technology and Videogames
 baseurl: ''
 url: https://greentwip.xyz
 logo: "/images/greentwiphq.jpg"
+title_image: "/images/greentwiphq.jpg"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 
