@@ -1,7 +1,6 @@
 ---
 title: The Long Forgotten Beater Project
 date: 2020-11-27 08:05:00 Z
-published: false
 categories:
 - Development
 - Videogames
