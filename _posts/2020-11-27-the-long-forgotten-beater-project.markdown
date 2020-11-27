@@ -36,4 +36,6 @@ I think it's a possible good mobile game. What do you think?
 
 You can find the source code at [Beater](https://github.com/greentwip/beater)
 
+The Cocos2d-X version used for this game is 3.10, it works for all platforms including Windows 10, it's written in C++ for as painful as it might sound
+
 Unfortunately there are no executables to test for players! (yet)
