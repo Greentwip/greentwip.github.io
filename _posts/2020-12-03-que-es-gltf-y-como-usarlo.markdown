@@ -16,6 +16,10 @@ Bueno, en primera porque su formato está desarrollado por el grupo Khronos, qui
 
 ![opengl.png](/uploads/opengl.png)
 
-No te preocupes si utilizas una implementación diferente a OpenGL para su procesamiento. De hecho, si utilizas el *horrendo y sobrevalorado* motor Unity, ya te contaré por qué es horrendo desde mi perspectiva en algún otro post
+No te preocupes si utilizas una implementación diferente a OpenGL para su procesamiento. De hecho, si utilizas el *horrendo y sobrevalorado* motor Unity, ya te contaré por qué Unity tiene esas características desde mi perspectiva en algún otro post. En fin, si utilizas Unity existen plugins que te permiten cargar glTF sin problema alguno. Y si utilizas MonoGame podrás utilizarlo también sin problema utilizando SharpGLTF.
+
+En lo personal, y por qué no hablo de algo diferente a C#, bueno, pues es que en realidad hoy en día los videojuegos que se crean con lenguajes diferentes, y vaya que es monopólico, suelen ser más complicados de programar o más extensos. 
+
+
 
 
