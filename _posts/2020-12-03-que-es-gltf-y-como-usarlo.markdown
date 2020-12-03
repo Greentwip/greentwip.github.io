@@ -14,4 +14,8 @@ Para usar glTF tenemos a la disposición bibliotecas de soporte para C#, C++, Ja
 ¿Por qué utilizar glTF?
 Bueno, en primera porque su formato está desarrollado por el grupo Khronos, quienes se encargan de crear los fierros detrás de OpenGL. Luego además de ser de código abierto, junto con todas sus herramientas de implementación, tiene la ventaja de no ser privativo y no se limita a un solo conjunto de programas de modelado (como 3d Studio Max o similares), de hecho, puedes usar Blender para trabajar con él.
 
+![opengl.png](/uploads/opengl.png)
+
+No te preocupes si utilizas una implementación diferente a OpenGL para su procesamiento. De hecho, si utilizas el *horrendo y sobrevalorado* motor Unity, ya te contaré por qué es horrendo desde mi perspectiva en algún otro post
+
 
