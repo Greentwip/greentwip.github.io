@@ -29,6 +29,17 @@ glTF tiene además la ventaja de poseer transformaciones de huesos o "Skin trans
 Si ya tienes como extraer los huesos de tus modelos 3D, será suficiente con pasárselos al vertex shader de OpenGL con algo como:
 
 ```
+
+// BoneTransforms simplemente es una matriz en el shader
+// Además hay que especificar el tamaño máximo de los bones
+// Este valor puede estar rondando los 200 
+// #define SKINNED_EFFECT_MAX_BONES   144
+// uniform mat4 BoneTransforms[SKINNED_EFFECT_MAX_BONES];
+
+// ToSonicOrca() simplemente convierte matrices de DirectX
+// en matrices de OpenGL, no me culpes, así lo diseñamos
+// puedes utilizar matrices de OpenGL directamente
+
 for (var i = 0; i < _effect.BoneTransforms.Length; i++)
 {
     shaderProgram.SetUniform(_uniformInputBones[i], 
@@ -37,5 +48,42 @@ for (var i = 0; i < _effect.BoneTransforms.Length; i++)
 
 ```
 
+Luego viene la parte del shader y permíteme decirte que esto me tomó al menos un par de semanas de darme cuenta, ya verás por qué.
 
+El shader, cuando se verifica que el modelo tenga skin es tan simple como:
 
+```
+if (IsSkinned == 1.0) 
+{
+    vec4 skinningPosition = vec4(0.0, 0.0, 0.0, 0.0);
+    float boneCount = 4;
+
+    for (int i = 0; i < boneCount; i++)
+    {
+	skinningPosition += (BoneTransforms[int(VertexBlendIndex[i])] * vec4(VertexPosition, 1.0)) * VertexWeight[i];
+    }
+
+    FragmentPosition = vec3(Model * vec4(VertexPosition, 1.0f));
+    FragmentNormal = mat3(transpose(inverse(Model))) * VertexNormal;;
+    FragmentTexCoord = VertexTexCoord;
+
+    gl_Position = WorldViewProj * skinningPosition;
+}
+
+```
+
+Mientras que en el fragment shader tenemos:
+
+```
+vec4 color = vec4(1.0, 1.0, 1.0, 1.0);
+		
+if (HasTexture == 1.0) 
+{
+    vec2 flipTC = vec2(FragmentTexCoord.x + 0.5 / TextureWidth, FragmentTexCoord.y - 0.5 / TextureHeight);
+    color = texture2D(Texture, flipTC);// * FragmentDiffuse;
+		}
+
+    OutputColour = color
+```
+
+Ten en cuenta que le tienes que pasar los tamaños de las texturas ya que OpenGL hace el sampling de pixeles *en medio de la textura* y no en el origen superior izquierdo o inferior izquierdo como en otras herramientas gráficas
