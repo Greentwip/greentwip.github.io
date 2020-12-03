@@ -36,14 +36,10 @@ Si ya tienes como extraer los huesos de tus modelos 3D, será suficiente con pas
 // #define SKINNED_EFFECT_MAX_BONES   144
 // uniform mat4 BoneTransforms[SKINNED_EFFECT_MAX_BONES];
 
-// ToSonicOrca() simplemente convierte matrices de DirectX
-// en matrices de OpenGL, no me culpes, así lo diseñamos
-// puedes utilizar matrices de OpenGL directamente
-
 for (var i = 0; i < _effect.BoneTransforms.Length; i++)
 {
     shaderProgram.SetUniform(_uniformInputBones[i], 
-    _effect.BoneTransforms[i].ToSonicOrca());
+    _effect.BoneTransforms[i]);
 }
 
 ```
