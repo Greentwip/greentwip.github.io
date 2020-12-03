@@ -1,7 +1,6 @@
 ---
 title: "¿Qué es glTF y cómo usarlo?"
 date: 2020-12-03 05:36:00 Z
-published: false
 categories:
 - Development
 - Videogames
