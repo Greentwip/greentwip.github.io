@@ -2,6 +2,14 @@
 title: "¿Qué es glTF y cómo usarlo?"
 date: 2020-12-03 05:36:00 Z
 published: false
+categories:
+- Development
+- Videogames
+tags:
+- C#
+- 3D
+- OpenGL
+- glTF
 ---
 
 glTF es en 3D un formato llamado GL Transmission Format, y sirve nada más y nada menos que para representar modelos en tercera dimensión. 
@@ -82,4 +90,8 @@ if (HasTexture == 1.0)
     OutputColour = color
 ```
 
-Ten en cuenta que le tienes que pasar los tamaños de las texturas ya que OpenGL hace el sampling de pixeles *en medio de la textura* y no en el origen superior izquierdo o inferior izquierdo como en otras herramientas gráficas
+Ten en cuenta que le tienes que pasar los tamaños de las texturas ya que OpenGL hace el sampling de pixeles *en medio de la textura* y no en el origen superior o inferior izquierdo como en otras herramientas gráficas.
+
+Y eso es todo, no necesitas nada adicional para poder visualizar un modelo glTF. 
+
+Más delante nos adentraremos en el loader completo para OpenGL y C#, pero si estás teniendo problemas para elegir el formato y no sabes al final como lo vas a cargar, esta información tal vez pueda serte útil y quizá glTF sea uno de los formatos que quieras tener en tu lista de formatos soportados.
