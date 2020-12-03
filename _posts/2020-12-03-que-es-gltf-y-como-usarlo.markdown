@@ -18,11 +18,24 @@ Bueno, en primera porque su formato está desarrollado por el grupo Khronos, qui
 
 No te preocupes si utilizas una implementación diferente a OpenGL para su procesamiento. De hecho, si utilizas el *horrendo y sobrevalorado* motor Unity, ya te contaré por qué Unity tiene esas características desde mi perspectiva en algún otro post. En fin, si utilizas Unity existen plugins que te permiten cargar glTF sin problema alguno. Y si utilizas MonoGame podrás utilizarlo también sin problema utilizando SharpGLTF.
 
-En lo personal, y por qué no hablo de algo diferente a C#, bueno, pues es que en realidad hoy en día los videojuegos que se crean con lenguajes diferentes, y vaya que es monopólico, suelen ser más complicados de programar o más extensos. 
+En lo personal, y por qué no hablo de algo diferente a C#, bueno, pues es que en realidad hoy en día los videojuegos que se crean con lenguajes diferentes, y vaya que es monopólico, suelen ser más complicados de programar o más extensos, créeme, por experiencia te lo digo. 
 
 ![csharp.png](/uploads/csharp.png)
 
+Otros lenguajes como Lua son predilectos para programar videojuegos, aunque no lo sepas, Lua es bastante utilizado en proyectos de código cerrado, también es bueno que le eches un vistazo a proyectos como Love2d mientras estás por allí.
 
+glTF tiene además la ventaja de poseer transformaciones de huesos o "Skin transforms" que no son más que movimiento de los vértices generados por animaciones, también posee texturas, normales y materiales basados en PBR, súper cómodos y extremadamente lucidos en su calidad gráfica.
+
+Si ya tienes como extraer los huesos de tus modelos 3D, será suficiente con pasárselos al vertex shader de OpenGL con algo como:
+
+```
+for (var i = 0; i < _effect.BoneTransforms.Length; i++)
+{
+    shaderProgram.SetUniform(_uniformInputBones[i], 
+    _effect.BoneTransforms[i].ToSonicOrca());
+}
+
+```
 
 
 
