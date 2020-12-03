@@ -20,6 +20,9 @@ No te preocupes si utilizas una implementación diferente a OpenGL para su proce
 
 En lo personal, y por qué no hablo de algo diferente a C#, bueno, pues es que en realidad hoy en día los videojuegos que se crean con lenguajes diferentes, y vaya que es monopólico, suelen ser más complicados de programar o más extensos. 
 
+![csharp.png](/uploads/csharp.png)
+
+
 
 
 
