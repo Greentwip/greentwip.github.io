@@ -24,6 +24,47 @@ O también las puedes clonar con git desde el repositorio de [huihut](https://gi
 git clone -b OpenCV-3.4.1 https://github.com/huihut/OpenCV-MinGW-Build.git
 ```
 
-Si ya instalaste Dev-C++ y creaste un proyecto lo demás es sencillo, tan sólo necesi
+Si ya instalaste Dev-C++ y creaste un proyecto lo demás es sencillo, tan sólo necesitas crear un proyecto y configurar un par de cosas.
+
+Este será el contenido de main.cpp:
+
+```
+#include <stdio.h>
+#include <iostream>
+#include "opencv2/core/core.hpp"
+#include "opencv2/features2d/features2d.hpp"
+#include "opencv2/highgui/highgui.hpp"
+
+int main(int argc, char* argv[])
+{
+	int method = 0;
+	cv::VideoCapture cap(0); // open the video capture for reading
+	if ( !cap.isOpened() ) // if not success, exit program
+	{
+		std::cout << "Cannot open the video file" << std::endl;
+		return -1;
+	}
+	
+	cv::namedWindow("MyVideo",CV_WINDOW_AUTOSIZE);
+	while(1)
+	{
+		cv::Mat frame;
+		bool bSuccess = cap.read(frame);
+		cv::imshow("MyVideo", frame);
+		if(cv::waitKey(30) == 27)
+		{
+			std::cout << "esc key is pressed by user" << std::endl;
+			break;
+		}
+	}
+	return 0;
+}
+```
+
+Tendrás que agregar los Include Directories de la siguiente forma (menú Project->Project Options...)
+
+
+
+
 
 
