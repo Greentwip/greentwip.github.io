@@ -73,5 +73,11 @@ Para eso tendrás que referenciar presionando en el botón "Add library or objec
 
 Finalmente copia todo el contenido de opencv\x64\mingw\bin a tu carpeta del proyecto Dev-C++, algo así:
 
+![opencv-binaries-dev_cplusplus.PNG](/uploads/opencv-binaries-dev_cplusplus.PNG)
+
+Si haz seguido bien los pasos todo saldrá bien. Tan sólo selecciona la opción del menú Execute -> Compile y luego Execute -> Run.
+
+Tendrás una ventana con la salida de imagen de tu cámara:
+
 
 
