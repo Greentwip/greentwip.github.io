@@ -2,6 +2,12 @@
 title: "¿Cómo configurar OpenCV con MinGW?"
 date: 2020-12-04 04:49:00 Z
 published: false
+categories:
+- Development
+- Robotics
+tags:
+- OpenCV
+- C++
 ---
 
 Bien, es momento de un poco de robótica. En los siguientes días estaré publicando sobre programación con Arduino, ¿Suena interesante?
@@ -78,6 +84,7 @@ Finalmente copia todo el contenido de opencv\x64\mingw\bin a tu carpeta del proy
 Si haz seguido bien los pasos todo saldrá bien. Tan sólo selecciona la opción del menú Execute -> Compile y luego Execute -> Run.
 
 Tendrás una ventana con la salida de imagen de tu cámara:
+
 
 
 
