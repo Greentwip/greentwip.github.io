@@ -19,6 +19,8 @@ Si no conoces OpenCV bueno... Es una biblioteca de procesamiento de imágenes s�
 
 Esto es meramente demostrativo. En la práctica real NO suele utilizarse Dev-C++ para programar esta clase de programas pero si recién comienzas te ahorrarás mucho y podrás programar de inmediato. El setup recomendado es CMake + Visual Studio (del 2019 para acá).
 
+Si, el título tal vez es clickbait, pero en el fondo Dev-C++ trabaja con MinGW, por lo que esto también te funcionará incluso si trabajas con herramientas como Cygwin.
+
 Necesitarás las bibliotecas de OpenCV 3.4.1(si, también llamadas por vicio librerías) 
 
 Las puedes encontrar directamente desde [este vínculo](https://dl.dropbox.com/s/5nmlr8m9c0vydjk/OpenCV-MinGW-Build-OpenCV-3.4.1-x64.zip?dl=0)
