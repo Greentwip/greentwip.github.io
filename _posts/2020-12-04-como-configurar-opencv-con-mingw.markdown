@@ -85,6 +85,8 @@ Si haz seguido bien los pasos todo saldrá bien. Tan sólo selecciona la opción
 
 Tendrás una ventana con la salida de imagen de tu cámara:
 
+![opencv-dev_cplusplus-execution.PNG](/uploads/opencv-dev_cplusplus-execution.PNG)
 
+Y ya está.
 
 
