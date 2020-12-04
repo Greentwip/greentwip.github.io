@@ -1,7 +1,6 @@
 ---
 title: "¿Cómo configurar OpenCV con MinGW?"
 date: 2020-12-04 04:49:00 Z
-published: false
 categories:
 - Development
 - Robotics
