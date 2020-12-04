@@ -67,6 +67,11 @@ Tendrás que agregar los Include Directories de la siguiente forma (menú Projec
 
 Luego tendrás que linkear las bibliotecas correspondientes:
 
+![dev-C  -opencv-libraries.PNG](/uploads/dev-C%20%20-opencv-libraries.PNG)
+
+Para eso tendrás que referenciar presionando en el botón "Add library or object", navegar a la carpeta opencv\x64\mingw\lib (te recomiendo usar una ruta para opencv en C:\Binaries o C:\Dev, según tu gusto).
+
+Finalmente copia todo el contenido de opencv\x64\mingw\bin a tu carpeta del proyecto Dev-C++, algo así:
 
 
 
