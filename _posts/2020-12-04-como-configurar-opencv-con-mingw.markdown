@@ -63,7 +63,9 @@ int main(int argc, char* argv[])
 
 Tendrás que agregar los Include Directories de la siguiente forma (menú Project->Project Options...)
 
+![opencv.png](/uploads/opencv.png)
 
+Luego tendrás que linkear las bibliotecas correspondientes:
 
 
 
