@@ -146,7 +146,7 @@ Luego en el sketch:
   }
 ```
 
-Verifica las strings enviadas y asigna un valor HIGH al led especificado, definido como 13.
+Verifica las strings enviadas y asigna un valor HIGH al led especificado, definido como 13, el led que contiene la tablilla.
 
 ```
 #define led 13
