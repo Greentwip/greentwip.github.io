@@ -125,8 +125,33 @@ Al sketch de Arduino le tenemos que mandar una cadena de texto con terminación 
 Para enviarle la string tenemos que utilizar la función de SerialPort donde especificamos un tamaño máximo de buffer de tamaño DATA_LENGTH, nuestras strings no podrán ser más grandes que eso, a no ser que lo definamos de otra manera. De todas formas no se necesitan tantos datos para esta clase de dispositivos embebidos.
 
 ```
-hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+const char* sendString = "ON\n";
+bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
 ```
+
+Con eso encendemos el led.
+
+Luego en el sketch:
+
+```
+  if (receivedString.equals("ON")) {
+    digitalWrite(led, HIGH);
+    Serial.print("ON");
+    delay(DELAY_TIME);
+  }
+  else if (receivedString.equals("OFF")) {
+    digitalWrite(led, LOW);
+    Serial.print("OFF");
+    delay(DELAY_TIME);
+  }
+```
+
+Verifica las strings enviadas y asigna un valor HIGH al led especificado, definido como 13.
+
+```
+#define led 13
+```
+
 
 
 
