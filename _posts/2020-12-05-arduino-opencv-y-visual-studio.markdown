@@ -15,6 +15,7 @@ Field name:
 
 <div>
     <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
     <script>
         $(function() {
             $("meta[name='twitter:card']").attr('content', 
