@@ -18,7 +18,8 @@ Field name:
     <script src="https://code.jquery.com/jquery-1.8.3.js"/>
     <script>
         alert("test");
-        $("meta[property='twitter\\:card']").attr("content", "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg);
+        $("meta[property='twitter\\:card']").attr("content", "summary_large_image");
+        $("meta[property='twitter\\:image']").attr("content", "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg");
 
 
     </script>
