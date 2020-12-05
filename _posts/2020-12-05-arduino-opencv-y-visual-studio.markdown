@@ -179,5 +179,14 @@ else {
 }
 ```
 
+Lo demás es puro boilerplate, es decir, funciones de rutina que mantienen viva la ejecución y que siempre tienen que estar allí.
+
+```
+cvui::update();
+cv::imshow(WINDOW_NAME, frame);
+```
+
+update que actualiza el GUI e imshow que muestra en la ventana con el nombre WINDOW_NAME la matriz extraída por la función de la cámara.
+
 
 
