@@ -10,6 +10,9 @@ tags:
 - Visual Studio
 ---
 
-{% image = /uploads/ArduinoUnoSMDFront.jpg %}
+---
+layout: post
+image: /uploads/ArduinoUnoSMDFront.jpg 
+---
 
 ![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
