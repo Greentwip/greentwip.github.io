@@ -16,7 +16,6 @@ Field name:
 <div>
     <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
     <script>
-        alert("test");
         $("meta[name='twitter:card']").attr('content', "summary_large_image");
         $("meta[name='twitter:image']").attr('content', "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg");
 
