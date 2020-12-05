@@ -42,7 +42,7 @@ OpenCV 3.4.1 (compilamos desde la fuente)
 
 Y que tengas instalada la suite de Arduino, la puedes obtener desde el sitio oficial en la [sección de descargas](https://www.arduino.cc/en/software).
 
-
+![arduino-downloads.PNG](/uploads/arduino-downloads.PNG)
 
 Podría hacer una lista larga acerca de cómo compilar con CMake, pero por ahora basta y sobra con descargar el proyecto y prestar atención en cada una de las partes del código. 
 
