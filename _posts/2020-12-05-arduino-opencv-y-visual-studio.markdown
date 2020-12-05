@@ -14,7 +14,6 @@ Field name:
 ---
 
 <div>
-    <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
     <script>
         $(function() {
             console.log('dom ready');
