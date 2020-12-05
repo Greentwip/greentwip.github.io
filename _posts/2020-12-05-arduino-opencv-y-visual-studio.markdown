@@ -122,5 +122,11 @@ Al sketch de Arduino le tenemos que mandar una cadena de texto con terminación 
   }
 ```
 
+Para enviarle la string tenemos que utilizar la función de SerialPort donde especificamos un tamaño máximo de buffer de tamaño DATA_LENGTH, nuestras strings no podrán ser más grandes que eso, a no ser que lo definamos de otra manera. De todas formas no se necesitan tantos datos para esta clase de dispositivos embebidos.
+
+```
+hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+```
+
 
 
