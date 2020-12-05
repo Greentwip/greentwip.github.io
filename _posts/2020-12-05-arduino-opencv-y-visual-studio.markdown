@@ -168,4 +168,16 @@ Finalmente, se lee desde la interfaz de OpenCV el valor enviado por Arduino.
 int hasRead = arduino->readSerialPort(receivedString, DATA_LENGTH);
 ```
 
+Y cambiamos el texto en función de estado del led (ON Y OFF).
+
+```
+if (ledOn) {
+    cvui::text(frame, 40, 120, "Led 13 encendido");
+}
+else {
+    cvui::text(frame, 40, 120, "Led 13 apagado");
+}
+```
+
+
 
