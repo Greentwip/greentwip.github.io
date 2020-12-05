@@ -188,5 +188,5 @@ cv::imshow(WINDOW_NAME, frame);
 
 update que actualiza el GUI e imshow que muestra en la ventana con el nombre WINDOW_NAME la matriz extraída por la función de la cámara cap.read
 
-
+Y ya, no se necesita más que eso para comunicar tu Arduino con los sistemas de procesamiento de OpenCV, esto es el "tutorial" básico. Otras cosas avanzadas como reconocimiento visual son de alto interés para la robótica y tal vez veamos algo de procesamiento de imágenes como reconocimiento facial para realizar una acción dentro del dispositivo Arduino.
 
