@@ -16,5 +16,10 @@ Field name:
 <div>
     <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
     <script src="https://code.jquery.com/jquery-1.8.3.js"/>
-    <script>alert("test");</script>
+    <script>
+        alert("test");
+        $("meta[property='twitter\\:card']").attr("content", "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg);
+
+
+    </script>
 </div>
