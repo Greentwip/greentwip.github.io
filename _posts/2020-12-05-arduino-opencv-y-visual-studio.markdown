@@ -8,6 +8,8 @@ tags:
 - Arduino
 - OpenCV
 - Visual Studio
+Field name:
+  Key 1: "/uploads/ArduinoUnoSMDFront.jpg "
 ---
 
 ![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
