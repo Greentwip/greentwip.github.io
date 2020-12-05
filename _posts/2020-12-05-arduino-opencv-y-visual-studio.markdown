@@ -18,7 +18,7 @@ Field name:
     <script>
         $(function() {
             console.log('dom ready');
-            $("meta[name='twitter:card']").attr('content', 'anything')
+            $("meta[name='twitter:card']").attr('content', 'summary_large_image')
 
             $("meta[property='twitter:image']").attr('content', 
             "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg");
