@@ -186,7 +186,7 @@ cvui::update();
 cv::imshow(WINDOW_NAME, frame);
 ```
 
-update que actualiza el GUI e imshow que muestra en la ventana con el nombre WINDOW_NAME la matriz extraída por la función de la cámara.
+update que actualiza el GUI e imshow que muestra en la ventana con el nombre WINDOW_NAME la matriz extraída por la función de la cámara cap.read
 
 
 
