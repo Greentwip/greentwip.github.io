@@ -44,7 +44,6 @@ Podría hacer una lista larga acerca de cómo compilar con CMake, pero por ahora
 
 Si no quieres seguirte todo el post porque estás ansioso y sólo quieres ver el programa en ejecución pues bien, adelante, únicamente abre Arduino_GUI.sln, compila y ejecuta, tardará tal vez algunos cuantos bastantes minutos en compilar todo OpenCV pero estará bien, no olvides cambiar el puerto COM al que se ajuste a tu máquina.
 
-
 Es importante que a la hora de compilar los sketches cambies la tarjeta Arduino a la que corresponde según tu modelo. Esto se hace desde acá:
 
 ![board.png](/uploads/board.png)
