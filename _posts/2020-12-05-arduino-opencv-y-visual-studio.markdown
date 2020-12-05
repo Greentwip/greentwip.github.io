@@ -36,8 +36,11 @@ Puedes descargar el proyecto completo desde [aquí](https://dl.dropbox.com/s/v7e
 Utilizaremos:
 
 Visual Studio 2019
+
 OpenCV 3.4.1 (compilamos desde la fuente)
+
 [SerialPort](https://github.com/manashmandal/SerialPort) de manashmandal
+
 [cvui](https://dovyski.github.io/cvui/) de dovyski
 
 Y que tengas instalada la suite de Arduino, la puedes obtener desde el sitio oficial en la [sección de descargas](https://www.arduino.cc/en/software).
