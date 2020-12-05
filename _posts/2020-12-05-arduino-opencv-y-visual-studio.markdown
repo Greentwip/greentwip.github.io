@@ -88,22 +88,22 @@ La parte más relevante del código que sigue tal vez sea:
 
 ```
 
-		cvui::text(frame, 40, 40, "Click para comunicarse con Arduino");
+cvui::text(frame, 40, 40, "Click para comunicarse con Arduino");
 
-		if (cvui::button(frame, 300, 80, "Encender")) {
-			const char* sendString = "ON\n";
-			bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
-			if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
-			else std::cerr << "Datos no escritos" << std::endl;
-		}
+if (cvui::button(frame, 300, 80, "Encender")) {
+	const char* sendString = "ON\n";
+	bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+	if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
+	else std::cerr << "Datos no escritos" << std::endl;
+}
 
 
-		if (cvui::button(frame, 300, 140, "Apagar")) {
-			const char* sendString = "OFF\n";
-			bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
-			if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
-			else std::cerr << "Datos no escritos" << std::endl;
-		}
+if (cvui::button(frame, 300, 140, "Apagar")) {
+	const char* sendString = "OFF\n";
+	bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+	if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
+	else std::cerr << "Datos no escritos" << std::endl;
+}
 ```
 
 Pues allí creamos la conexión de escritura a nuestro Arduino.
