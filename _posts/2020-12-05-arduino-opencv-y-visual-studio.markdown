@@ -16,7 +16,4 @@ Field name:
 
 {{ page.image.url}}
 
-<img src="{{ page.image.url}}" />
-
-{{ page.image.url}}
 
