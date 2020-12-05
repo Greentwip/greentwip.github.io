@@ -23,3 +23,9 @@ Field name:
         });
     </script>
 </div>
+![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
+¿Nunca te has preguntado que podrías hacer con un semiconductor si tuvieras la oportunidad de cambiar el código fuente a tu antojo?
+
+Bueno, pues con Arduino esto es una opción muy real. Arduino es un sistema de tarjetas de hardware abierto, dispositivos embebidos, que te permiten, mediante sus pines de entrada y salida, crear circuitos eléctricos con una facilidad increíble.
+
+En este post vamos a averiguar cómo
