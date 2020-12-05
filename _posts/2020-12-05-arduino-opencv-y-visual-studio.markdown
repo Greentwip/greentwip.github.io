@@ -13,7 +13,6 @@ Field name:
     url: "/uploads/ArduinoUnoSMDFront.jpg"
 ---
 
-
-{{ page.image.url}}
-
-
+<div>
+    <img src="https://greentwip.xyz/images/greentwiphq.jpg"></img>
+</div>
