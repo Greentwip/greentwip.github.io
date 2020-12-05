@@ -9,7 +9,7 @@ tags:
 - OpenCV
 - Visual Studio
 Field name:
-  Key 1: "/uploads/ArduinoUnoSMDFront.jpg "
+  image: "/uploads/ArduinoUnoSMDFront.jpg "
 ---
 
 ![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
