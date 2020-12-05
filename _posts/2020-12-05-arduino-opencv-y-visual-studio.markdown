@@ -152,6 +152,20 @@ Verifica las strings enviadas y asigna un valor HIGH al led especificado, defini
 #define led 13
 ```
 
+HIGH es encendido como sabrás si al menos te has leído algo sobre Arduino.
 
+Finalmente le devolvemos la ejecución a la interfaz gráfica de OpenCV con lo siguiente:
+
+```
+Serial.print("ON");
+```
+
+Es necesario agregar un delay para que el código no envíe más de una vez el contenido "ON", esto es por diseño ya que la velocidad de procesamiento de Arduino puede resultar un tanto molesta y ejecutar más de una vez la misma línea de código al realizar las lecturas desde el puerto serial.
+
+Finalmente, se lee desde la interfaz de OpenCV el valor enviado por Arduino.
+
+```
+int hasRead = arduino->readSerialPort(receivedString, DATA_LENGTH);
+```
 
 
