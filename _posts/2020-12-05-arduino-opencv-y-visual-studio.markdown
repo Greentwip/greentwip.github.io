@@ -60,5 +60,30 @@ COM4
 ```
 Al puerto que visualices en los dispositivos de sistema una vez te hayas instalado todo lo necesario para tu Arduino.
 
+Tenemos de entrada un puntero inteligente, es lo mismo que un puntero sólo que la memoria se maneja de manera automática y por un sistema de referencias *demasiado complicado de explicar* pero fácil de entender.
+
+```
+std::shared_ptr<SerialPort> arduino;
+```
+
+Ese lo instanciamos por acá:
+
+```
+arduino = std::make_shared<SerialPort>(portName);
+```
+
+Una vez inicializada la conexión se llama a la función de cvui de inicialización con el nombre de nuestra ventana:
+
+```
+cvui::init(WINDOW_NAME, 20);
+```
+
+Y más delante la creamos con:
+
+```
+cv::namedWindow(WINDOW_NAME, CV_WINDOW_AUTOSIZE);
+```
+
+
 
 
