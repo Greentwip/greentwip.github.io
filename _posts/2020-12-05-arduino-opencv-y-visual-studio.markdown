@@ -17,9 +17,9 @@ Field name:
     <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
     <script>
         $(function() {
-            $("meta[name='twitter:card']").attr('content', 
+            $("meta[property='twitter:card']").attr('content', 
             "summary_large_image");
-            $("meta[name='twitter:image']").attr('content', 
+            $("meta[property='twitter:image']").attr('content', 
             "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg");
         });
     </script>
