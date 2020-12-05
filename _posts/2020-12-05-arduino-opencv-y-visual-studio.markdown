@@ -14,5 +14,5 @@ Field name:
 ---
 
 <div>
-    <img src="https://greentwip.xyz/images/greentwiphq.jpg"></img>
+    <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
 </div>
