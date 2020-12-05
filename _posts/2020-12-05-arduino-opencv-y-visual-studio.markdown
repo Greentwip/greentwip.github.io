@@ -84,6 +84,43 @@ Y más delante la creamos con:
 cv::namedWindow(WINDOW_NAME, CV_WINDOW_AUTOSIZE);
 ```
 
+La parte más relevante del código que sigue tal vez sea:
+
+```
+
+		cvui::text(frame, 40, 40, "Click para comunicarse con Arduino");
+
+		if (cvui::button(frame, 300, 80, "Encender")) {
+			const char* sendString = "ON\n";
+			bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+			if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
+			else std::cerr << "Datos no escritos" << std::endl;
+		}
+
+
+		if (cvui::button(frame, 300, 140, "Apagar")) {
+			const char* sendString = "OFF\n";
+			bool hasWritten = arduino->writeSerialPort(sendString, DATA_LENGTH);
+			if (hasWritten) std::cout << "Datos escritos correctamente" << std::endl;
+			else std::cerr << "Datos no escritos" << std::endl;
+		}
+```
+
+Pues allí creamos la conexión de escritura a nuestro Arduino.
+
+```
+cvui::button(frame, 300, 80, "Encender")
+```
+
+Es verdadero si ha recibido un click, se crea a través de la matriz con la dimensión especificada, 300 y 80 son las coordenadas "X" y "Y" respectivamente y lo que sigue es simplemente la etiqueta o texto que contiene el botón.
+
+Al sketch de Arduino le tenemos que mandar una cadena de texto con terminación \n porque representa un salto de línea que será posteriormente leído con:
+
+```
+  if (Serial.available() > 0){
+    receivedString = Serial.readStringUntil('\n');
+  }
+```
 
 
 
