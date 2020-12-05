@@ -31,7 +31,7 @@ Bueno, pues con Arduino esto es una opción muy real. Arduino es un sistema de t
 
 En este post vamos a averiguar cómo podemos comunicarnos con Arduino mediante simple comunicación serial. No vamos a adentrarnos en cómo está hecha la biblioteca que usamos para comunicarnos ni tampoco vamos a indagar dentro del sistema de UI que usaremos.
 
-Puedes descargar el proyecto completo desde aquí.
+Puedes descargar el proyecto completo desde [aquí](https://dl.dropbox.com/s/v7escnppojdb6ks/Arduino_GUI.zip?dl=0).
 
 Utilizaremos:
 
