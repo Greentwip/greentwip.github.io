@@ -8,7 +8,6 @@ tags:
 - Arduino
 - OpenCV
 - Visual Studio
-image: "/uploads/ArduinoUnoSMDFront.jpg"
 ---
 
 ![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
