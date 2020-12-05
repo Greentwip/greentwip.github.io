@@ -40,6 +40,10 @@ OpenCV 3.4.1 (compilamos desde la fuente)
 [SerialPort](https://github.com/manashmandal/SerialPort) de manashmandal
 [cvui](https://dovyski.github.io/cvui/) de dovyski
 
+Y que tengas instalada la suite de Arduino, la puedes obtener desde el sitio oficial en la [sección de descargas](https://www.arduino.cc/en/software).
+
+
+
 Podría hacer una lista larga acerca de cómo compilar con CMake, pero por ahora basta y sobra con descargar el proyecto y prestar atención en cada una de las partes del código. 
 
 Si no quieres seguirte todo el post porque estás ansioso y sólo quieres ver el programa en ejecución pues bien, adelante, únicamente abre Arduino_GUI.sln, compila y ejecuta, tardará tal vez algunos cuantos bastantes minutos en compilar todo OpenCV pero estará bien, no olvides cambiar el puerto COM al que se ajuste a tu máquina.
