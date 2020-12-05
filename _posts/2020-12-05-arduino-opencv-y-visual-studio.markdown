@@ -22,7 +22,5 @@ Field name:
             $("meta[name='twitter:image']").attr('content', 
             "https://greentwip.xyz/uploads/ArduinoUnoSMDFront.jpg");
         });
-
-
     </script>
 </div>
