@@ -17,6 +17,7 @@ Field name:
     <img src="https://greentwip.xyz/images/greentwiphq.jpg"/>
     <script>
         $(function() {
+            console.log('dom ready');
             $("meta[property='twitter:card']").attr('content', 
             "summary_large_image");
             $("meta[property='twitter:image']").attr('content', 
