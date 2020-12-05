@@ -10,9 +10,4 @@ tags:
 - Visual Studio
 ---
 
----
-layout: post
-image: /uploads/ArduinoUnoSMDFront.jpg 
----
-
 ![ArduinoUnoSMDFront.jpg](/uploads/ArduinoUnoSMDFront.jpg)
