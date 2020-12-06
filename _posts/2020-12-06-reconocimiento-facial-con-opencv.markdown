@@ -44,5 +44,10 @@ Y ya. Eso es todo lo que se necesita para reconocer un rostro, finalmente asigna
 
 Finalmente obteniendo el resultado:
 
+![recognition.png](/uploads/recognition.png)
+
+¿Puedes ver mi rostro?, seguro que también a ti te reconocerá.
+
+Eso ha sido todo por hoy, más delante intentaremos hacer detecciones en imágenes estáticas con y sin entrenamiento.
 
 
