@@ -38,3 +38,5 @@ Luego viene network_.forward, que realiza una salida con la layer descrita en el
 
 Después se itera la matriz resultante, cada fila de la matriz representa una detección (un rostro encontrado), y si éste supera el nivel de certeza establecido, creamos un rectángulo para dibujar. confidence_threshold_, un valor medio de 0.5 a 1.0 donde 0 es nada de certeza en la detección y 1 es total certeza.
 
+
+
