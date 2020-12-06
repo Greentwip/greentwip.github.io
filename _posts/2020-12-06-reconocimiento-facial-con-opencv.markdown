@@ -30,3 +30,11 @@ La primera parte simplemente carga las rutas, haciendo uso de la cabecera filesy
 
 Los mean values o valores promedio son un cálculo de todas las sesiones de imágenes de entrenamiento en sus canales RGB, es decir Rojo, Verde y Azul en valor promedio de todo lo que se calculó, por lo que en otros modelos entrenados estos valores pueden cambiar y es necesario tomar nota de ellos según se entrene el modelo.
 
+![detect_formatted.PNG](/uploads/detect_formatted.PNG)
+
+En la función detect_face_rectangles lo primero que vemos es network_.setInput, que toma de entrada el blob creado por la imagen que estamos capturando directo de la cámara y hace referencia al nombre de la entrada en nuestro prototxt que es la descripción de la red neural, así se llama "data" y puedes abrir deploy_lowres.prototxt si eres curioso.
+
+Luego viene network_.forward, que realiza una salida con la layer descrita en el prototxt de nombre "detection_out" que es el valor de salida que obtenemos después de todo el procesamiento.
+
+Después se itera la matriz resultante, cada fila de la matriz representa una detección (un rostro encontrado), y si éste supera el nivel de certeza establecido, creamos un rectángulo para dibujar. confidence_threshold_, un valor medio de 0.5 a 1.0 donde 0 es nada de certeza en la detección y 1 es total certeza.
+
