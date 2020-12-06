@@ -20,3 +20,9 @@ Esto no es tan complicado como suena y tenemos dos alternativas, reconocimiento 
 
 El reconocimiento sin entrenar hace uso de CascadeClassifier que es una clase de datos que reconoce objetos dentro de un stream de imágenes mientras que el reconocimiento entrenado hace uso de blobs y modelos pre-entrenados, aunque es posible también generar nuestros modelos, entrenarlos y distribuirlos.
 
+FaceDetector es la única clase de la que nos tenemos que preocupar, que es el algoritmo que se comprueba funciona correctamente sin problemas para imágenes dinámicas o variadas, mientras que el algoritmo no entrenado puede funcionar perfecto para imágenes estáticas.
+
+Para no hacer largo el tema tenemos el constructor:
+
+![constructor.PNG](/uploads/constructor.PNG)
+
