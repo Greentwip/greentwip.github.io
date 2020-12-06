@@ -42,3 +42,7 @@ Y ya. Eso es todo lo que se necesita para reconocer un rostro, finalmente asigna
 
 ![detection_show.PNG](/uploads/detection_show.PNG)
 
+Finalmente obteniendo el resultado:
+
+
+
