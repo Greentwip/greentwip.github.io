@@ -48,6 +48,4 @@ Finalmente obteniendo el resultado:
 
 ¿Puedes ver mi rostro?, seguro que también a ti te reconocerá.
 
-Eso ha sido todo por hoy, más delante intentaremos hacer detecciones en imágenes estáticas con y sin entrenamiento.
-
-
+Eso ha sido todo por hoy, más delante intentaremos hacer detecciones en imágenes estáticas con y sin entrenamiento. Posiblemente también hagamos uso de Arduino para poder abrir o cerrar circuitos o simular el desbloqueo de un teléfono con reconocimiento facial.
