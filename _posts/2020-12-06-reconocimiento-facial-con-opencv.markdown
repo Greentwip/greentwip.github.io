@@ -50,4 +50,4 @@ Finalmente obteniendo el resultado:
 
 Eso ha sido todo por hoy, más delante intentaremos hacer detecciones en imágenes estáticas con y sin entrenamiento. Posiblemente también hagamos uso de Arduino para poder abrir o cerrar circuitos o simular el desbloqueo de un teléfono con reconocimiento facial.
 
-El código se atribuye a Benjamin Wagner, en su post de [Medium](https://medium.com/analytics-vidhya/building-a-face-detector-with-opencv-in-c-8814cd374ea1), gracias a él pudimos crear este post en Español.
+El código de reconocimiento con redes neurales se atribuye a Benjamin Wagner, en su post de [Medium](https://medium.com/analytics-vidhya/building-a-face-detector-with-opencv-in-c-8814cd374ea1), gracias a él pudimos crear este post en Español.
