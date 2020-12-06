@@ -38,5 +38,7 @@ Luego viene network_.forward, que realiza una salida con la layer descrita en el
 
 Después se itera la matriz resultante, cada fila de la matriz representa una detección (un rostro encontrado), y si éste supera el nivel de certeza establecido, creamos un rectángulo para dibujar. confidence_threshold_, un valor medio de 0.5 a 1.0 donde 0 es nada de certeza en la detección y 1 es total certeza.
 
+Y ya. Eso es todo lo que se necesita para reconocer un rostro, finalmente asignamos un grosor en los rectángulos que vamos a dibujar y se los dibujamos al frame, imagen capturada desde la cámara.
 
+![detection_show.PNG](/uploads/detection_show.PNG)
 
