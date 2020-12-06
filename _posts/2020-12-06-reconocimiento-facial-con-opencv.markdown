@@ -26,3 +26,7 @@ Para no hacer largo el tema tenemos el constructor:
 
 ![constructor.PNG](/uploads/constructor.PNG)
 
+La primera parte simplemente carga las rutas, haciendo uso de la cabecera filesystem sólo disponible en C++17, y la segunda parte se encarga de cargar la red neural y comprobar que no existan errores (de todas formas OpenCV simplemente tira una excepción si el formato no es correcto y la ejecución termina).
+
+Los mean values o valores promedio son un cálculo de todas las sesiones de imágenes de entrenamiento en sus canales RGB, es decir Rojo, Verde y Azul en valor promedio de todo lo que se calculó, por lo que en otros modelos entrenados estos valores pueden cambiar y es necesario tomar nota de ellos según se entrene el modelo.
+
