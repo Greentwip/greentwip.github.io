@@ -29,6 +29,12 @@ git submodule init
 git submodule update
 ```
 
+Ejecuta setup.bat dentro de opencv para crear los archivos de proyecto necesarios para la compilación.
+
+Una vez generados dirígete a opencv/build/VS2019 abre OpenCV.sln y compila este proyecto de acá (INSTALL):
+
+
+
 Bueno, creo que es suficiente como para empezar.
 
 En el código tenemos el constructor:
