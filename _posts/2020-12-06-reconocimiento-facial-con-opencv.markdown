@@ -13,13 +13,15 @@ tags:
 
 En el post anterior logramos configurar OpenCV para utilizarlo con Visual Studio, en esta ocasión comenzaremos un pequeño proyecto sobre cómo detectar rostros mediante una red neural profunda (dnn o Deep Neural Network) precomputada para el reconocimiento facial.
 
-El archivo completo, como de costumbre, lo puedes encontrar [aquí](https://dl.dropbox.com/s/zqxrarw4ixqq576/Facial_Recognition.zip?dl=0).
+El código completo lo puedes encontrar [aquí](https://github.com/Greentwip/OpenCV-Recognition/).
 
 Esto no es tan complicado como suena y tenemos dos alternativas, reconocimiento facial entrenado y reconocimiento facial sin entrenar.
 
 El reconocimiento sin entrenar hace uso de CascadeClassifier que es una clase de datos que reconoce objetos dentro de un stream de imágenes mientras que el reconocimiento entrenado hace uso de blobs y modelos pre-entrenados, aunque es posible también generar nuestros modelos, entrenarlos y distribuirlos.
 
 FaceDetector es la única clase de la que nos tenemos que preocupar, que es el algoritmo que se comprueba funciona correctamente sin problemas para imágenes dinámicas o variadas, mientras que el algoritmo no entrenado puede funcionar perfecto para imágenes estáticas.
+
+NOTA: El código actual fue renombrado a TrainedDetector, solamente eso, la funcionalidad es la misma, actualizaré las imágenes de referencia dentro de algunos días, por ahora puedes seguir los pasos y tomar lo siguiente como consulta para desarrollo futuro.
 
 Para no hacer largo el tema tenemos el constructor:
 
