@@ -117,6 +117,35 @@ Y devolvemos la matriz computada al final de la función.
 
 Jennette McCurdy y yo en una linda foto con nuestros nombres.
 
+![predictions-5b8a5f.png](/uploads/predictions-5b8a5f.png)
+
+Recuerda que puedes cambiar el algoritmo de detección de entrenado a sin entrenar con la booleana untrainedRecognition dentro de Arduino_GUI.cpp en:
+
+```
+if (untrainedRecognition) {
+	if (bSuccess) {
+		detection = untrained_detector.detect(frame);
+	}
+	else {
+		detection = frame;
+	}
+
+}
+else {
+	auto rectangles = trained_detector.detect_face_rectangles(frame);
+	cv::Scalar color(0, 105, 205);
+	int frame_thickness = 4;
+	for (const auto& r : rectangles) {
+		cv::rectangle(frame, r, color, frame_thickness);
+	}
+
+	detection = frame;
+}
+```
+
+Pero solamente si usas el algoritmo no-entrenado podrás tener la identificación de los rostros.
+
+Más delante, y cuando haya reparado los errores de detección, veremos como activar circuitos en el dispositivo Arduino en base al rostro que se detecta, esto puede ser útil, por ejemplo, para abrir puertas o ejecutar programas según llegue el dueño u otra persona (o incluso bloquear el equipo), las posibilidades son muy amplias.
 
 
 
