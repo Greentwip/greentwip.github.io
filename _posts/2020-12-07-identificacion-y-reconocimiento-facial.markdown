@@ -8,7 +8,9 @@ Hoy hablaremos acerca de cómo es posible identificar rostros mediante un nivel 
 Al igual que el post anterior, es necesario utilizar:
 
 Visual Studio 2019
+
 CMake (instalado en el PATH)
+
 Git
 
 Y de igual manera:
