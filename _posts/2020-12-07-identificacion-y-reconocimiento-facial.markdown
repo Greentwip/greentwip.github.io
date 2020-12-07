@@ -96,6 +96,28 @@ else {
 
 En un principio no me funcionó el algoritmo con la predicción con el índice correcto (que resulta ser el que le pasas en el archivo separado por comas) y siempre me daba el segundo valor de las dos secuencias de imágenes de entrenamiento. Esto es posible repararlo con imágenes más certeras y reducidas de tamaño (que incluyan el rostro sin cuerpo, por ejemplo), por ahora utilicé el nivel de certeza (confidence) a ser un valor aproximado a 11000 para detectar que no se trataba de Jennette McCurdy sino de mi, el nivel de certeza nos brinda información sobre que tan seguro está el detector de indicarnos si el rostro le pertenece o no a una persona.
 
-En fin.
+En fin. Al terminar simplemente le agregamos un rectángulo verde al rostro que detectamos, face_i es el de tamaño completo, más delante verás que el tamaño completo NO es el que estiramos o reducimos de tamaño sino el que posee la cámara y al cual le asignamos el rectángulo.
+
+![faces-part3.PNG](/uploads/faces-part3.PNG)
+
+Agregamos el texto en la posición superior derecha con:
+
+```
+putText(original,
+	box_text,
+	cv::Point(pos_x, pos_y),
+	cv::FONT_HERSHEY_PLAIN,
+	1.0,
+	CV_RGB(0, 255, 0), 2.0);
+```
+
+Y devolvemos la matriz computada al final de la función.
+
+¿El resultado? 
+
+Jennette McCurdy y yo en una linda foto con nuestros nombres.
+
+
+
 
 
