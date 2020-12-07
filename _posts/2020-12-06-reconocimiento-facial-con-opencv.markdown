@@ -35,6 +35,14 @@ git submodule update
 
 Dentro del folder donde lo haz clonado.
 
+Ejecuta setup.bat dentro de opencv para crear los archivos de proyecto necesarios para la compilación.
+
+Una vez generados dirígete a opencv/build/VS2019 abre OpenCV.sln y compila este proyecto de acá (INSTALL):
+
+![opencvinstall.PNG](/uploads/opencvinstall.PNG)
+
+Hacer eso instalará todo lo necesario en la carpeta opencv/build/VS2019 y podrás abrir y compilar Arduino_GUI.sln
+
 Esto no es tan complicado como suena y tenemos dos alternativas, reconocimiento facial entrenado y reconocimiento facial sin entrenar.
 
 El reconocimiento sin entrenar hace uso de CascadeClassifier que es una clase de datos que reconoce objetos dentro de un stream de imágenes mientras que el reconocimiento entrenado hace uso de blobs y modelos pre-entrenados, aunque es posible también generar nuestros modelos, entrenarlos y distribuirlos.
