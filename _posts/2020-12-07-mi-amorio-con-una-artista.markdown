@@ -10,7 +10,7 @@ tags:
 - Zaz
 ---
 
-Isabelle Geffroy es un nombre que te puede sonar poco familiar, pero en Francia es mucho más popular de lo que crees.
+Isabelle Geffroy o Zaz es un nombre que te puede sonar poco familiar, pero en Francia es mucho más popular de lo que crees.
 
 Ella es una artista muy buena, su música hace revitalizar hasta a las plantas secas. 
 
