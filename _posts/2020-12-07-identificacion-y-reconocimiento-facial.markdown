@@ -66,3 +66,12 @@ Se convierte a escala de grises y luego se detectan los rectángulos de los rost
 cvtColor(original, gray, cv::COLOR_BGR2GRAY);
 _haar_cascade.detectMultiScale(gray, faces);
 ```
+
+Es importante saber, más delante donde se iteran los rostros detectados uno por uno, que tenemos que estirar o reducir el tamaño del rostro detectado para que concuerden al tamaño de las imágenes que le dimos al modelo que entrenamos.
+
+```
+cv::Mat face_resized;
+cv::resize(face, face_resized, cv::Size(_im_width, _im_height), 1.0, 1.0, cv::INTER_CUBIC);
+```
+
+Podrás buscar el código de arriba más delante
