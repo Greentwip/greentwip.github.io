@@ -33,7 +33,9 @@ Ejecuta setup.bat dentro de opencv para crear los archivos de proyecto necesario
 
 Una vez generados dirígete a opencv/build/VS2019 abre OpenCV.sln y compila este proyecto de acá (INSTALL):
 
+![opencvinstall.PNG](/uploads/opencvinstall.PNG)
 
+Hacer eso instalará todo lo necesario en la carpeta opencv/build/VS2019 y podrás abrir y compilar Arduino_GUI.sln
 
 Bueno, creo que es suficiente como para empezar.
 
