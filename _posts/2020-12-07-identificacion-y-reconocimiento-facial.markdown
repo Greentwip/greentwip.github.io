@@ -9,6 +9,7 @@ tags:
 - Algoritmos
 - C++
 - Visual Studio
+- Reconocimiento Facial
 ---
 
 Hoy hablaremos acerca de cómo es posible identificar rostros mediante un nivel de certeza en la identificación con un algoritmo no-entrenado que se puede entrenar con imágenes predeterminadas.
