@@ -63,7 +63,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-paginate
+- jekyll-paginate-v2
 - jekyll-redirect-from
 author:
   name: Greentwip
