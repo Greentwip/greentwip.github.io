@@ -53,3 +53,6 @@ _model = cv::face::EigenFaceRecognizer::create();
 _model->train(_images, _labels);
 
 ```
+
+Esto le dará al model información acerca de cómo reconocer los rostros.
+
