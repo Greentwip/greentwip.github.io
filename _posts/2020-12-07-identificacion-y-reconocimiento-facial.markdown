@@ -12,3 +12,23 @@ Visual Studio 2019
 CMake (instalado en el PATH)
 Git
 
+Y de igual manera:
+
+El código completo lo puedes encontrar [aquí](https://github.com/Greentwip/OpenCV-Recognition/).
+
+Esto es tan sencillo como clonar con:
+
+```
+git clone https://github.com/Greentwip/OpenCV-Recognition
+```
+
+Cuando lo clones no olvides llamar en el directorio OpenCV-Recognition:
+
+```
+git submodule init
+git submodule update
+```
+
+Bueno, creo que es suficiente como para empezar.
+
+
