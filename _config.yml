@@ -29,7 +29,7 @@ defaults:
     share: true
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-description: Technology and Videogames
+description: Technology, Love, and Videogames
 baseurl: ''
 url: https://greentwip.xyz
 logo: "/images/greentwiphq.jpg"
