@@ -26,7 +26,7 @@ Esto es tan sencillo como clonar con:
 git clone https://github.com/Greentwip/OpenCV-Recognition
 ```
 
-Cuando lo clones no olvides llamar:
+Cuando lo clones no olvides llamar en el directorio OpenCV-Recognition:
 
 ```
 git submodule init
