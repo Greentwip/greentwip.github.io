@@ -1,6 +1,13 @@
 ---
 title: Mi Amorío Con Una Artista
 date: 2020-12-07 11:44:00 Z
+categories:
+- Topic
+- Stories
+tags:
+- Amor
+- Experiencias
+- Zaz
 ---
 
 Isabelle Geffroy es un nombre que te puede sonar poco familiar, pero en Francia es mucho más popular de lo que crees.
