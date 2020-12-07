@@ -9,6 +9,7 @@ tags:
 - Algoritmos
 - Reconocimiento Facial
 - C++
+- Visual Studio
 ---
 
 En el post anterior logramos configurar OpenCV para utilizarlo con Visual Studio, en esta ocasión comenzaremos un pequeño proyecto sobre cómo detectar rostros mediante una red neural profunda (dnn o Deep Neural Network) precomputada para el reconocimiento facial.
