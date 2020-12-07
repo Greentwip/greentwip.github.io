@@ -56,3 +56,13 @@ _model->train(_images, _labels);
 
 Esto le dará al model información acerca de cómo reconocer los rostros.
 
+Dentro de detect, en UntrainedDetector, tenemos lo siguiente:
+
+![faces-part1.PNG](/uploads/faces-part1.PNG)
+
+Se convierte a escala de grises y luego se detectan los rectángulos de los rostros con:
+
+```
+cvtColor(original, gray, cv::COLOR_BGR2GRAY);
+_haar_cascade.detectMultiScale(gray, faces);
+```
