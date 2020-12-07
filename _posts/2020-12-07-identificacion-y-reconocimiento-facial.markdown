@@ -74,4 +74,8 @@ cv::Mat face_resized;
 cv::resize(face, face_resized, cv::Size(_im_width, _im_height), 1.0, 1.0, cv::INTER_CUBIC);
 ```
 
-Podrás buscar el código de arriba más delante
+Podrás buscar el código de arriba más delante en:
+
+![faces-part2.PNG](/uploads/faces-part2.PNG)
+
+
