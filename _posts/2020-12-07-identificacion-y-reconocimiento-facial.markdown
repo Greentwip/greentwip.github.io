@@ -1,6 +1,7 @@
 ---
 title: Identificación y Reconocimiento Facial
 date: 2020-12-07 08:23:00 Z
+published: false
 ---
 
 Hoy hablaremos acerca de cómo es posible identificar rostros mediante un nivel de certeza en la identificación con un algoritmo no-entrenado que se puede entrenar con imágenes predeterminadas.
