@@ -31,4 +31,6 @@ git submodule update
 
 Bueno, creo que es suficiente como para empezar.
 
+En el código tenemos el constructor:
+
 
