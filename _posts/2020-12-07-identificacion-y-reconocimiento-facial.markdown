@@ -61,6 +61,8 @@ Después cargamos data/csv.ext, que es un archivo separado por comas que incluye
 victor_01_20_20_70_70.jpg
 ```
 
+Es importante saber que todas las imágenes de entrenamiento deben tener el mismo tamaño o de lo contrario OpenCV tirará un error.
+
 No tuve tiempo de investigar que es 20 20 70 70, pero aunque no es muy relevante, puede utilizarse para la ubicación del rostro y de los ojos, al parecer OpenCV lo lee directamente desde el formato del nombre del archivo, 01 es simplemente un identificador de imagen.
 
 Finalmente creamos el modelo de reconocimiento facial y entrenamos con:
