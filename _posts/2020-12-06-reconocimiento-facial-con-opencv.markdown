@@ -16,8 +16,24 @@ En el post anterior logramos configurar OpenCV para utilizarlo con Visual Studio
 Vamos a necesitar:
 Visual Studio 2019
 CMake (instalado en el PATH)
+Git
 
 El código completo lo puedes encontrar [aquí](https://github.com/Greentwip/OpenCV-Recognition/).
+
+Esto es tan sencillo como clonar con:
+
+```
+git clone https://github.com/Greentwip/OpenCV-Recognition
+```
+
+Cuando lo clones no olvides llamar:
+
+```
+git submodule init
+git submodule update
+```
+
+Dentro del folder donde lo haz clonado.
 
 Esto no es tan complicado como suena y tenemos dos alternativas, reconocimiento facial entrenado y reconocimiento facial sin entrenar.
 
