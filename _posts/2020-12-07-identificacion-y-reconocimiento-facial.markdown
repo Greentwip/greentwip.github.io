@@ -78,4 +78,22 @@ Podrás buscar el código de arriba más delante en:
 
 ![faces-part2.PNG](/uploads/faces-part2.PNG)
 
+Y finalmente obtenemos el índice del rostro detectado y su nivel de certeza:
+
+```
+double confidence = 0.0;
+
+int prediction = 0;
+_model->predict(face_resized, prediction, confidence);
+
+if (confidence < 11000) {
+	prediction = 0;
+}
+else {
+	prediction = 1;
+}
+```
+
+En un principio no me funcionó el algoritmo con la predicción con el índice correcto (que resulta ser el que le pasas en el archivo separado por comas) y siempre me daba el segundo valor de las dos secuencias de imágenes de entrenamiento. Esto es posible repararlo con imágenes más certeras y reducidas de tamaño (que incluyan el rostro sin cuerpo, por ejemplo), por ahora utilicé el nivel de certeza (confidence) a ser un valor aproximado a 11000 para detectar que no se trataba de Jennette McCurdy sino de mi, el nivel de certeza nos brinda información sobre que tan seguro está el detector de indicarnos si el rostro le pertenece o no a una persona.
+
 
