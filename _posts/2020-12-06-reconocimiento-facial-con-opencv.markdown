@@ -14,8 +14,11 @@ tags:
 En el post anterior logramos configurar OpenCV para utilizarlo con Visual Studio, en esta ocasión comenzaremos un pequeño proyecto sobre cómo detectar rostros mediante una red neural profunda (dnn o Deep Neural Network) precomputada para el reconocimiento facial.
 
 Vamos a necesitar:
+
 Visual Studio 2019
+
 CMake (instalado en el PATH)
+
 Git
 
 El código completo lo puedes encontrar [aquí](https://github.com/Greentwip/OpenCV-Recognition/).
