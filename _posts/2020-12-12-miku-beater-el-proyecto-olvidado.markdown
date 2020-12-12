@@ -13,7 +13,7 @@ tags:
 - Juegos
 ---
 
-La escena final se perdió. Desafortunadamente. Volverá con algunos esfuerzos de desarrollo.
+La escena final se perdió. Desafortunadamente. Volverá con algunos esfuerzos de desarrollo. 
 
 La mayor parte del juego está bien y funciona perfectamente.
 
